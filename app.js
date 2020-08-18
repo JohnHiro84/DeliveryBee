@@ -3,6 +3,8 @@ const app = express();
 const mongoose = require('mongoose');
 const db = require('./config/keys').mongoURI;
 
+const stripeKey = require('./config/keys').stripeKey;
+
 const bodyParser = require('body-parser');
 
 const users = require("./routes/api/users");
@@ -20,7 +22,7 @@ const Review = require('./models/Review');
 
 const passport = require('passport');
 
-const stripe = require("stripe")("sk_test_51H6pQPKx4XF3FVjgHPJi6Kjex0wWejUYoDKBm81VA2bEsZ2ArGb9FL5x09fdSKpUIWDNoepTfu5V7WDjRgoMgo7N001e4saCNW");
+const stripe = require("stripe")(stripeKey);
 
 const cors = require("cors");
 const uuid = require("uuid/v4");
