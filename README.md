@@ -6,12 +6,8 @@
 ![sample image](stripe.png)
 
 
-The Delivery Bee is a Postmates clone where customers can request deliveries and Helper Bees fulfill
-those orders.
-The app is made with a frontend for the customer and a frontend for the workers fulfilling
-the orders. The app is made with the MapBox(maps) and Stripe (payments) APIs. The app
-uses redux to manage state. The app also uses React Hooks, toast notifications, chartJs and moment Js
-to format time/dates.
+The Delivery Bee is a Postmates clone where customers can request deliveries, and Helper Bees fulfill the orders.
+The app has a frontend for the customers and a frontend for the helpers. Delivery Bee utilizes the MapBox API to display maps and the Stripe API to take care of payments. The app uses Redux to manage state, and it also uses React Hooks, toast notifications, ChartJs, and MomentJs(format time/dates).
 
 ## Challanges
 
