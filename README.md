@@ -1,5 +1,11 @@
 # Delivery Bee 
 
+![sample image](main.png)
+![sample image](order-detail-toast.png)
+![sample image](profile.png)
+![sample image](stripe.png)
+
+
 The Delivery Bee is a Postmates clone where customers can request deliveries and Helper Bees fulfill
 those orders.
 The app is made with a frontend for the customer and a frontend for the workers fulfilling
