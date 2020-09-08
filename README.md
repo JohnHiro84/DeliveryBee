@@ -19,6 +19,6 @@ One of the challenges I encountered was with the appropriate zoom in the Mapbox 
 
 I wanted to have a quick way to notify the customer or helper after specific tasks were completed without making the components too bulky. I found the react-toastify library, which simplifies toast notifications in just a few lines of code.
 
-### Formatting time and Date
+### Formatting time and date
 
 In formatting the time and dates for the order creation and completion, I used the moment-js library. The library takes care of formatting the time and dates without having to write extra unnecessary code.
